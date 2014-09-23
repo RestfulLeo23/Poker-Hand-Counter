@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56BC4B919D1F34A00768108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BC4B819D1F34A00768108 /* main.m */; };
+		F56BC4BC19D1F34A00768108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BC4BB19D1F34A00768108 /* AppDelegate.m */; };
+		F56BC4BF19D1F34A00768108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BC4BE19D1F34A00768108 /* ViewController.m */; };
+		F56BC4C219D1F34A00768108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56BC4C019D1F34A00768108 /* Main.storyboard */; };
+		F56BC4C419D1F34A00768108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56BC4C319D1F34A00768108 /* Images.xcassets */; };
+		F56BC4C719D1F34A00768108 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56BC4C519D1F34A00768108 /* LaunchScreen.xib */; };
+		F56BC4D319D1F34A00768108 /* Poker_Hand_CounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56BC4D219D1F34A00768108 /* Poker_Hand_CounterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56BC4CD19D1F34A00768108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56BC4AB19D1F34A00768108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56BC4B219D1F34A00768108;
+			remoteInfo = "Poker Hand Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56BC4B319D1F34A00768108 /* Poker Hand Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker Hand Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56BC4B719D1F34A00768108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56BC4B819D1F34A00768108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56BC4BA19D1F34A00768108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56BC4BB19D1F34A00768108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F56BC4BD19D1F34A00768108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F56BC4BE19D1F34A00768108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F56BC4C119D1F34A00768108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56BC4C319D1F34A00768108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F56BC4C619D1F34A00768108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F56BC4CC19D1F34A00768108 /* Poker Hand CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poker Hand CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56BC4D119D1F34A00768108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56BC4D219D1F34A00768108 /* Poker_Hand_CounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poker_Hand_CounterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56BC4B019D1F34A00768108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56BC4C919D1F34A00768108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56BC4AA19D1F34900768108 = {
+			isa = PBXGroup;
+			children = (
+				F56BC4B519D1F34A00768108 /* Poker Hand Counter */,
+				F56BC4CF19D1F34A00768108 /* Poker Hand CounterTests */,
+				F56BC4B419D1F34A00768108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56BC4B419D1F34A00768108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56BC4B319D1F34A00768108 /* Poker Hand Counter.app */,
+				F56BC4CC19D1F34A00768108 /* Poker Hand CounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56BC4B519D1F34A00768108 /* Poker Hand Counter */ = {
+			isa = PBXGroup;
+			children = (
+				F56BC4BA19D1F34A00768108 /* AppDelegate.h */,
+				F56BC4BB19D1F34A00768108 /* AppDelegate.m */,
+				F56BC4BD19D1F34A00768108 /* ViewController.h */,
+				F56BC4BE19D1F34A00768108 /* ViewController.m */,
+				F56BC4C019D1F34A00768108 /* Main.storyboard */,
+				F56BC4C319D1F34A00768108 /* Images.xcassets */,
+				F56BC4C519D1F34A00768108 /* LaunchScreen.xib */,
+				F56BC4B619D1F34A00768108 /* Supporting Files */,
+			);
+			path = "Poker Hand Counter";
+			sourceTree = "<group>";
+		};
+		F56BC4B619D1F34A00768108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56BC4B719D1F34A00768108 /* Info.plist */,
+				F56BC4B819D1F34A00768108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56BC4CF19D1F34A00768108 /* Poker Hand CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56BC4D219D1F34A00768108 /* Poker_Hand_CounterTests.m */,
+				F56BC4D019D1F34A00768108 /* Supporting Files */,
+			);
+			path = "Poker Hand CounterTests";
+			sourceTree = "<group>";
+		};
+		F56BC4D019D1F34A00768108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56BC4D119D1F34A00768108 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56BC4B219D1F34A00768108 /* Poker Hand Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56BC4D619D1F34A00768108 /* Build configuration list for PBXNativeTarget "Poker Hand Counter" */;
+			buildPhases = (
+				F56BC4AF19D1F34A00768108 /* Sources */,
+				F56BC4B019D1F34A00768108 /* Frameworks */,
+				F56BC4B119D1F34A00768108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poker Hand Counter";
+			productName = "Poker Hand Counter";
+			productReference = F56BC4B319D1F34A00768108 /* Poker Hand Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56BC4CB19D1F34A00768108 /* Poker Hand CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56BC4D919D1F34A00768108 /* Build configuration list for PBXNativeTarget "Poker Hand CounterTests" */;
+			buildPhases = (
+				F56BC4C819D1F34A00768108 /* Sources */,
+				F56BC4C919D1F34A00768108 /* Frameworks */,
+				F56BC4CA19D1F34A00768108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56BC4CE19D1F34A00768108 /* PBXTargetDependency */,
+			);
+			name = "Poker Hand CounterTests";
+			productName = "Poker Hand CounterTests";
+			productReference = F56BC4CC19D1F34A00768108 /* Poker Hand CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56BC4AB19D1F34A00768108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bonnie Line";
+				TargetAttributes = {
+					F56BC4B219D1F34A00768108 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F56BC4CB19D1F34A00768108 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F56BC4B219D1F34A00768108;
+					};
+				};
+			};
+			buildConfigurationList = F56BC4AE19D1F34A00768108 /* Build configuration list for PBXProject "Poker Hand Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56BC4AA19D1F34900768108;
+			productRefGroup = F56BC4B419D1F34A00768108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56BC4B219D1F34A00768108 /* Poker Hand Counter */,
+				F56BC4CB19D1F34A00768108 /* Poker Hand CounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56BC4B119D1F34A00768108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56BC4C219D1F34A00768108 /* Main.storyboard in Resources */,
+				F56BC4C719D1F34A00768108 /* LaunchScreen.xib in Resources */,
+				F56BC4C419D1F34A00768108 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56BC4CA19D1F34A00768108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56BC4AF19D1F34A00768108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56BC4BF19D1F34A00768108 /* ViewController.m in Sources */,
+				F56BC4BC19D1F34A00768108 /* AppDelegate.m in Sources */,
+				F56BC4B919D1F34A00768108 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56BC4C819D1F34A00768108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56BC4D319D1F34A00768108 /* Poker_Hand_CounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56BC4CE19D1F34A00768108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56BC4B219D1F34A00768108 /* Poker Hand Counter */;
+			targetProxy = F56BC4CD19D1F34A00768108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F56BC4C019D1F34A00768108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56BC4C119D1F34A00768108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56BC4C519D1F34A00768108 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56BC4C619D1F34A00768108 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56BC4D419D1F34A00768108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56BC4D519D1F34A00768108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56BC4D719D1F34A00768108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Poker Hand Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F56BC4D819D1F34A00768108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Poker Hand Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F56BC4DA19D1F34A00768108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Poker Hand CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Hand Counter.app/Poker Hand Counter";
+			};
+			name = Debug;
+		};
+		F56BC4DB19D1F34A00768108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Poker Hand CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poker Hand Counter.app/Poker Hand Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56BC4AE19D1F34A00768108 /* Build configuration list for PBXProject "Poker Hand Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56BC4D419D1F34A00768108 /* Debug */,
+				F56BC4D519D1F34A00768108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56BC4D619D1F34A00768108 /* Build configuration list for PBXNativeTarget "Poker Hand Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56BC4D719D1F34A00768108 /* Debug */,
+				F56BC4D819D1F34A00768108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56BC4D919D1F34A00768108 /* Build configuration list for PBXNativeTarget "Poker Hand CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56BC4DA19D1F34A00768108 /* Debug */,
+				F56BC4DB19D1F34A00768108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56BC4AB19D1F34A00768108 /* Project object */;
+}
